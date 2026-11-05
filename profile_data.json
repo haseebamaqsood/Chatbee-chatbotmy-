@@ -1,0 +1,56 @@
+{
+  "name": "Haseeba Maqsood",
+  "location": "Lahore, Punjab, Pakistan",
+  "headline": "Computer Science Lecturer and IT graduate focused on web and mobile app development",
+  "portfolio_url": "https://my-portfolio-haseeba-maqsood.netlify.app",
+  "contact": {
+    "email": "",
+    "github": "",
+    "linkedin": "",
+    "phone": ""
+  },
+  "about": "Haseeba is a Computer Science lecturer and BS Information Technology graduate who teaches programming and builds web and mobile applications, with a particular interest in AI-powered assistive technology.",
+  "experience": [
+    {
+      "role": "Visiting Lecturer (Computer Science)",
+      "organization": "Punjab College Lahore",
+      "period": "Sep 2026 - Present"
+    },
+    {
+      "role": "Inter Lecturer, Computer Science",
+      "organization": "Government Graduate College Lahore",
+      "period": "Sep 2025 - Mar 2026"
+    },
+    {
+      "role": "Teacher (Grades 6 to 10)",
+      "organization": "Professional Academy, Sabzazar",
+      "period": "Earlier role"
+    }
+  ],
+  "education": [
+    {
+      "degree": "BS Information Technology",
+      "institution": "University of the Punjab",
+      "period": "2022 - 2026"
+    },
+    {
+      "degree": "ICS (Intermediate in Computer Science)",
+      "institution": "Government Graduate College Lahore",
+      "period": "2020 - 2022"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Your Eyes (Final Year Project)",
+      "description": "A Flutter-based AI assistive mobile app for visually impaired users. It recognises Pakistani currency notes, fruits and vegetables and speaks the results in Urdu and English.",
+      "tech": ["Flutter", "AI / Machine Learning", "Text-to-Speech", "Urdu and English support"]
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "C", "C++", "C#", "HTML", "CSS", "JavaScript"],
+    "mobile_and_web": ["Flutter", "Android", "HTML/CSS/JavaScript"],
+    "databases": ["MySQL"],
+    "tools": ["Git", "GitHub"]
+  },
+  "interests": ["Teaching computer science", "Assistive technology", "Web and mobile app development"]
+}

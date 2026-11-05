@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatBee | Haseeba Maqsood</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <main class="chat-shell">
+    <header class="chat-header">
+      <div class="avatar">🐝</div>
+      <div class="header-text">
+        <h1>ChatBee</h1>
+        <p><span class="status-dot"></span> Ask me about Haseeba Maqsood</p>
+      </div>
+      <a class="portfolio-link" href="https://my-portfolio-haseeba-maqsood.netlify.app" target="_blank" rel="noopener">Portfolio ↗</a>
+    </header>
+
+    <section id="messages" class="messages" aria-live="polite"></section>
+
+    <div id="chips" class="chips">
+      <button class="chip">Who is Haseeba?</button>
+      <button class="chip">What are her skills?</button>
+      <button class="chip">Tell me about "Your Eyes"</button>
+      <button class="chip">Work experience</button>
+      <button class="chip">Education</button>
+    </div>
+
+    <form id="chat-form" class="chat-input" autocomplete="off">
+      <input id="user-input" type="text" placeholder="Type your question..." maxlength="1000" required />
+      <button id="send-btn" type="submit" aria-label="Send">➤</button>
+    </form>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
